@@ -13,13 +13,15 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 /*  */
 img {
   padding-top: 100px;
+  width: 350px;
+  height: 400px;
 }
 
 /*  */
 /* DEMO-SPECIFIC STYLES */
 .typewriter h5 {
   color: #fff;
-  width: 15em;
+  width: 19em;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .10em solid orange; /* The typwriter cursor */
@@ -34,7 +36,7 @@ img {
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 15em; }
+  to { width: 19em; }
 }
 
 /* The typewriter cursor effect */
