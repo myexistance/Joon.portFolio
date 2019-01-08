@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 .content-section img.pull-right { border:1px solid #DFDFDF; margin-top: 140px;  }
 
 /*  */
+img {
+  padding-top: 100px;
+}
+
+/*  */
 /* DEMO-SPECIFIC STYLES */
 .typewriter h5 {
   color: #fff;
