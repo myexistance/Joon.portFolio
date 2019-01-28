@@ -128,7 +128,7 @@ img {
 
 /*--- HOME ---*/
 #home {
-  background: url('https://cdn.pixabay.com/photo/2014/12/15/17/17/sailing-boat-569336_1280.jpg') no-repeat center center fixed;
+  background: url('') no-repeat center center fixed;
   background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
 }
 #home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
@@ -164,7 +164,7 @@ img {
 
 /*--- CONTACT ---*/
 #contact {
-  background: url('https://i.kinja-img.com/gawker-media/image/upload/s--J9DZBhwy--/c_scale,f_auto,fl_progressive,q_80,w_800/1419065748454950292.jpg') no-repeat top center fixed;
+  background: url('../img/sailing-boat-569336_1920.jpg') no-repeat top center fixed;
   background-size: cover;
 }
 
@@ -176,6 +176,6 @@ a.btn-default:after { content: ''; display: block; width: 44px; height: 44px; po
 a.twitter-btn:after { background-color: #55ACEE; }
 a.github-btn:after { background-color: #171515; }
 a.linkedin-btn:after { background-color: #0077B5; }
-a.fcc-btn:after { background-color: #4B2B0D; }
+a.email-btn:after { background-color: #4B2B0D; }
 a.btn-default:hover, a.btn-default:focus { background-color: #FFFFFF; color: #FFFFFF; }
 a.btn-default:hover:after { width: 100%; }

@@ -11,20 +11,20 @@ $(document).ready(function(){
  $("#home").click(function (){
               $('html, body').animate({
                   scrollTop: $(".about").offset().top-50
-              }, 400);
+              }, 90);
           });
  $("#about").click(function (){
               $('html, body').animate({
                   scrollTop: $(".food").offset().top-50
-              }, 400);
+              }, 90);
           });
  $("#portfolio").click(function (){
               $('html, body').animate({
                   scrollTop: $(".beer").offset().top-55
-              }, 400);
+              }, 90);
           });
  $("#contact").click(function (){
               $('html, body').animate({
                   scrollTop: $(".information").offset().top-55
-              }, 400);
+              }, 90);
           });
