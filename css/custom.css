@@ -55,8 +55,8 @@ img {
 /* DEMO-SPECIFIC STYLES */
 .typewriter h5 {
   color: #fff;
-  width: 19em;
-  font-family: monospace;
+  width: 18em;
+  font-family: sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .10em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -70,7 +70,7 @@ img {
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 19em; }
+  to { width: 18em; }
 }
 
 /* The typewriter cursor effect */
