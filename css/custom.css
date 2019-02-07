@@ -238,27 +238,33 @@ img {
 
 
 /*--- PORTFOLIO ---*/
+
 .content-section .thumbnail {
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
-.content-section .thumbnail * {
+/* .content-section .thumbnail * {
   transition: all .25s;
-}
-.content-section .thumbnail h4 {
+} */
+/* .content-section .thumbnail h4 {
   font-size: 19px; font-weight: 400;
-}
-.content-section .thumbnail p {
+} */
+/* .content-section .thumbnail p {
   line-height: 24px;
-}
-.content-section .thumbnail:hover h4, .content-section .thumbnail:hover p {
+} */
+/* .content-section .thumbnail:hover h4, .content-section .thumbnail:hover p {
   color: #AFAFAF;
+} */
+.content-section .thumbnail img {
+  position:relative;
+  top: 0;
+
 }
 .content-section .thumbnail:hover img {
   opacity: 0.25;
 }
-.content-section .thumbnail:after {
+/* .content-section .thumbnail:after {
   font-family: 'FontAwesome';
   content: '\f121';
   color: #FFF;
@@ -280,7 +286,7 @@ img {
   border-radius: 50%;
   background: transparent;
   border:3px solid transparent;
-}
+} */
 /* .content-section .thumbnail:hover:after { top: 25%; opacity: 1; color: #FFFFFF; background: #AF6204; border:3px solid #FFFFFF; } */
 
 
