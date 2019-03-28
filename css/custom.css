@@ -381,8 +381,8 @@ body {
 }
 
 #tagi {
-  width: 70%;
-  margin: 250px auto;
+  width: 100%;
+  margin: 180px auto;
 }
 
 @keyframes blink {
