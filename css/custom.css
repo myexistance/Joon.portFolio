@@ -8,7 +8,7 @@
     }
   }
 h1 {
-  font-family: "Bold";
+  font-family: "Quattrocento Sans";
   font-size: 240px;
     font-size: 17.5vw;
   line-height: 80%;
@@ -28,7 +28,7 @@ h1 {
   text-align: right;
 }
 h2 {
-  font-family: "Medium", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   font-size: 35px;
   line-height: 115%;
   color: #FFFFFF;
@@ -68,10 +68,10 @@ h2 {
 body {
   font-size: 16px;
   line-height: 1.5em;
-  font-family: 'Medium', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Medium', serif; font-weight: 700; color: #1a1a1a;
+  font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a;
 }
 .content-section {
   min-height: 100vh;
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*  */
-img {
+/*img {
   padding-top: 10px;
   width: 350px;
   height: 400px;
-}
+}*/
 
 /*  */
 /* DEMO-SPECIFIC STYLES */
@@ -168,7 +168,7 @@ img {
 
 /*--- NAVBAR ---*/
 .navbar-default {
-  font-family: 'Medium', serif;
+  font-family: 'Montserrat', serif;
   background: #FFFFFF;
   border-bottom-color: #DFDFDF;
   height: 60px;
