@@ -1,11 +1,77 @@
+/* ----- intro ----- */
+.header {
+  margin-top: 15vh;
+}
+  @media screen and (max-width: 767px) {
+    .header {
+      margin-top: 20vh;
+    }
+  }
+h1 {
+  font-family: "Bold";
+  font-size: 252px;
+    font-size: 17.5vw;
+  line-height: 80%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+  @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 28vw;
+      }
+  }
+.alignleft {
+  text-align: left;
+}
+.alignright {
+  text-align: right;
+}
+h2 {
+  font-family: "Medium";
+  font-size: 35px;
+  line-height: 115%;
+  color: #FFFFFF;
+  margin: 10vh 0 20vh 0vh;
+  max-width: 40%;
+  overflow: hidden;
+}
+  @media screen and (max-width: 767px) {
+    h2 {
+      max-width: 100%;
+      font-size: 30px;
+    }
+  }
+/* ----- animation ----- */
+.animate {
+  -webkit-animation:animate .5s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation:animate .5s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation:animate .5s cubic-bezier(.59, .01, .28, 1);
+  -webkit-animation-fill-mode:backwards;
+  -moz-animation-fill-mode:backwards;
+  animation-fill-mode:backwards;
+}
+@-webkit-keyframes animate {
+  0% {opacity: 0;-webkit-transform: translateY(-50px);}
+  100% {opacity: 1;-webkit-transform: translateY(0%);}
+}
+
+@keyframes animate {
+  0% {opacity: 0;transform: translateY(-50px);}
+  100% {opacity: 1;transform: translateY(0%);}
+}
+.delayheader { -webkit-animation-delay: .5s; animation-delay: .5s;}
+.delaycontent { -webkit-animation-delay: 1s; animation-delay: 1s;}
+
+
 /*--- GENERAL STYLES ---*/
 body {
   font-size: 16px;
   line-height: 1.5em;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Medium', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a;
+  font-family: 'Medium', serif; font-weight: 700; color: #1a1a1a;
 }
 .content-section {
   min-height: 100vh;
@@ -102,7 +168,7 @@ img {
 
 /*--- NAVBAR ---*/
 .navbar-default {
-  font-family: 'Montserrat', serif;
+  font-family: 'Medium', serif;
   background: #FFFFFF;
   border-bottom-color: #DFDFDF;
   height: 60px;
@@ -181,14 +247,14 @@ img {
 
 
 /*--- HOME ---*/
-#home {
+/*#home {
   background: url('') no-repeat center center fixed;
   background-size: cover;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
   text-align: center;
 }
 #home h1 {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Medium', sans-serif;
   font-size: 96px;
   color: #000;
   display: inline-block;
@@ -242,7 +308,7 @@ img {
     font-size: 24px;
   }
 }
-
+*/
 
 /*--- PORTFOLIO ---*/
 
