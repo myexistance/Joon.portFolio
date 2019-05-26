@@ -1,16 +1,16 @@
 /* ----- intro ----- */
 .header {
-  margin-top: 15vh;
+  margin-top: 17vh;
 }
   @media screen and (max-width: 767px) {
     .header {
-      margin-top: 20vh;
+      margin-top: 15vh;
     }
   }
 h1 {
   font-family: "Bold";
-  font-size: 252px;
-    font-size: 16.5vw;
+  font-size: 240px;
+    font-size: 17.5vw;
   line-height: 80%;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -28,7 +28,7 @@ h1 {
   text-align: right;
 }
 h2 {
-  font-family: "Medium";
+  font-family: "Medium", sans-serif;
   font-size: 35px;
   line-height: 115%;
   color: #FFFFFF;
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-section {
   min-height: 100vh;
-  padding-top: 70px;
+  padding-top: 115px;
   padding-bottom: 20px;
 }
 .content-section h1 {
