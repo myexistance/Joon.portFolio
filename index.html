@@ -9,6 +9,9 @@
     <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/custom.css">
 
     <link rel="shortcut icon" href="img/favicon.ico">
@@ -72,11 +75,12 @@
 
 
         </div>
-      </div>
+
     </div>
   </div>
+  </div>
   <!-- PORTFOLIO -->
-  <div id="portfolio" class="content-section">
+  <!-- <div id="portfolio" class="content-section">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -118,7 +122,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
             <img src="https://placeimg.com/768/456/tech/grayscale" alt="Project Dummy">
             <div class="caption">
@@ -135,10 +139,100 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
+  </div> -->
+  <div id="portfolio" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="portfolio">PORTFOLIO</h1>
+          <p class="lead">Below you'll find some of my recent work.</p>
+        </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="col-sm-6 col-md-8">
+          <div class="thumbnail">
+
+        <div class="item">
+          <a target="_blank" href="https://myexistance.github.io/CoffeeFinderFinal/">
+            <img src="img/coffeeFinder.jpg" alt="Project">
+          </a>
+          <a target="_blank" href="https://myexistance.github.io/CoffeeFinderFinal/" class="btn-light">
+            <i class="fas fa-eye"></i> Coffee Finder
+          </a>
+          <a href="#" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      </div>
+
+
+      <div class="swiper-slide">
+
+
+
+
+
+        <div class="item">
+          <div class="col-sm-6 col-md-12">
+            <div class="thumbnail">
+          <a target="_blank" href="https://myexistance.github.io/MTVnews/">
+            <img src="img/MTVnews.jpg" alt="Project">
+          </a>
+          <a target="_blank" href="https://myexistance.github.io/MTVnews/" class="btn-light">
+            <i class="fas fa-eye"></i> [NEWS] THIS WEEK
+          </a>
+          <a href="#" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="item">
+          <div class="col-sm-6 col-md-12">
+            <div class="thumbnail">
+          <a target="_blank" href="https://myexistance.github.io/React-Weather/">
+            <img src="img/WeatherApp.jpg" alt="Project">
+          </a>
+          <a target="_blank" href="https://myexistance.github.io/React-Weather/" class="btn-light">
+            <i class="fas fa-eye"></i> Weather App
+          </a>
+          <a href="#" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
   </div>
+</div>
+
+</div>
+
 
 
 
@@ -174,6 +268,31 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'cube',
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
     </script>
   </body>
 </html>
