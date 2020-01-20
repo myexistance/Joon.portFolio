@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   cursor: pointer;
 }
-/* .content-section .thumbnail * {
+.content-section .thumbnail * {
   transition: all .25s;
 } */
 /* .content-section .thumbnail h4 {
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 /* .content-section .thumbnail:hover h4, .content-section .thumbnail:hover p {
   color: #AFAFAF;
-} */
+}
 .content-section .thumbnail img {
   position:relative;
   top: 0;
@@ -667,6 +667,7 @@ grid-template-rows: auto;
 grid-template-columns: repeat(3, 1fr); }
 .projects img {
 width: 100%;
+Height: 76%;
 border: 3px #fff solid; }
 .projects img:hover {
 opacity: 0.5;
