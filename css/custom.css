@@ -1,6 +1,7 @@
 /* ----- intro ----- */
 .header {
-  margin-top: 17vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
   @media screen and (max-width: 767px) {
     .header {
@@ -11,7 +12,7 @@ h1 {
   font-family: "Quattrocento Sans";
   font-size: 100px;
   font-size: 10.5vw;
-  line-height: 80%;
+  line-height: 100%;
   color: #FFFFFF;
   text-transform: uppercase;
 
@@ -97,6 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
   line-height: 1.35em;
   margin-bottom: 25px;
+  text-align: left;
 }
 .content-section p.lead em {
   font-size: 14px;
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a.btn-default {
   height: 44px;
-  border-radius:  0 0 0 10;
+  border-radius:  0 0 0 0;
   border: 0;
   width: 600px;
   margin-left: auto;
